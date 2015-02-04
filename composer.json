@@ -19,7 +19,8 @@
 "jakub-onderka/php-parallel-lint": "dev-master"
     },
     "scripts": {
-        "post-install-cmd": "bash contrib/setup.sh"
+        "post-update-cmd": "bash contrib/setup.sh",
+        "post-update-cmd": "bash contrib/bang.sh"
     }
 
 }
